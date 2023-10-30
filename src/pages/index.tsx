@@ -126,7 +126,7 @@ export default function Home() {
                   src={ImageProduct}
                   alt="Imagem do produto"
                   placeholder="blur"
-                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNM3q1aDwAEkAHENSZfHAAAAABJRU5ErkJggg=="
+                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8+/9PPQAJcgN5xwuDHQAAAABJRU5ErkJggg=="
                   priority
                 />
 
