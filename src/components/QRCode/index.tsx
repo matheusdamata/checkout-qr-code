@@ -10,12 +10,11 @@ import {
 import { QRCodeSVG } from 'qrcode.react'
 import { useState } from 'react'
 
-export default function QRCode({ isLoading }: QRCodeProps) {
-  const [qrCode, setQRCode] = useState('')
+export default function QRCode({ isLoading, code }: QRCodeProps) {
   const [qrCodeCopied, setQRCodeCopied] = useState(false)
 
   const handleQrCodeCopy = () => {
-    navigator.clipboard.writeText(qrCode)
+    navigator.clipboard.writeText(code)
     setQRCodeCopied(true)
 
     const timerTooltip = setTimeout(() => setQRCodeCopied(false), 1500)
@@ -28,11 +27,11 @@ export default function QRCode({ isLoading }: QRCodeProps) {
 
   return (
     <Flex direction="column" align="center" justify="center" h="100%" gap="4">
-      <QRCodeSVG value={qrCode} width={250} height={250} />
+      <QRCodeSVG value={code} width={250} height={250} />
 
       <Flex direction="column" gap="2" mb="2">
         <Input
-          value={qrCode}
+          value={code}
           isDisabled={true}
           border="2px"
           borderColor="whatsapp.500"

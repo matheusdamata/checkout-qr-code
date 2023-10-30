@@ -6,4 +6,5 @@ export type LayoutProps = {
 
 export type QRCodeProps = {
   isLoading: boolean
+  code: string
 }
