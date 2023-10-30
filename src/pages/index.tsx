@@ -122,7 +122,13 @@ export default function Home() {
               bg="transparent"
             >
               <CardBody>
-                <Image src={ImageProduct} alt="" />
+                <Image
+                  src={ImageProduct}
+                  alt="Imagem do produto"
+                  placeholder="blur"
+                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNM3q1aDwAEkAHENSZfHAAAAABJRU5ErkJggg=="
+                  priority
+                />
 
                 <Stack mt="6" spacing="2">
                   <Heading color="gray.400" fontWeight="light" size="sm">
