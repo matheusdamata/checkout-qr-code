@@ -1,13 +1,15 @@
-# Lab: Pagamento através de QR Code
+# Lab: Pagamento PIX através de QR Code
 
 A aplicação tem como o objetivo, gerar o QR Code para pagamento via PIX com o gateway de pagamento Mercado Pago.
 
+Deploy: [Visualizar](https://next-checkout-qr-code.vercel.app/)
+
 ## Detalhes
 
-Esse projeto foi desenvolvido utilizando as seguintes tecnologias}
+Esse projeto foi desenvolvido utilizando as seguintes tecnologias
 
-- [Next.JS](https://nextjs.org/): Um framrwork React para construir aplicativos da web modernos.
-- [TypeScript](https://www.typescriptlang.org/): Uma linguagem de programação que compila para JavaScript.
+- [Next.JS](https://nextjs.org/): Um framework React para construir aplicativos da web modernos.
+- [TypeScript](https://www.typescriptlang.org/): TypeScript é uma linguagem de programação fortemente tipada baseada em JavaScript.
 - [Chakra UI](https://chakra-ui.com/): Uma biblioteca de estilização de componentes para React.
 
 ## Funcionalidades
